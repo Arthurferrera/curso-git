@@ -1,8 +1,8 @@
 ## Comandos: 
 `git status` - Mostra a estado atual do repositório
+  "Untracked Files" - São arquivos que não estão sendo versionados
+  "Changes to be commited" - Arquivos que estão commitados, alterações feitas localmente que já foram preparadas para serem "versionadas"
 `git add <nome_arquivo>` - Prepara um arquivo ou todos (.) para serem commitados
 `git rm --cached <nome_arquivo>` - Remove o arquivo desse commit atual
 `git commit -m "comentario"` - Confirma o commit, e coloca o comentário sobre o que foi adicionado ou alterado
-
-"Untracked Files" - São arquivos que não estão sendo versionados
-"Changes to be commited"= Arquivos que estão commitados, alterações feitas localmente que já foram preparadas para serem "versionadas"
+`git restore <nome_arquivo>` - Descarta as alterações feitas naquele arquivo
