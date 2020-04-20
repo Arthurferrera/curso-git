@@ -1,0 +1,4 @@
+Git Status
+Mostra a estado atual do repositório
+
+"Untracked Files" - São arquivos que não estão sendo versionados
