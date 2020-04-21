@@ -1,4 +1,4 @@
-# curso-git
+## curso-git
 
 CURSO DE GIT - Curso realizado para fixar conhecimentos de Git e aprender novos "truques" de versionamento de código
 
@@ -6,6 +6,8 @@ Esse README.md é voltado a expor códigos que possam me ajudar a ajudar outras 
 
 ### Comandos: 
 `git init` - inicia um repositório <br>
+> `--bare` - Faz do repositório criado, um repositório onde só vai receber os pushs e não será um repositório onde será trabalhado.
+
 `git remote add origin <link_repositorio>` - Faz o link entre o repositório local e o do GitHub <br>
 `git add README.md` - Adiciona o arquivo readme do repositório <br>
 `git status` - Mostra a estado atual do repositório <br>
