@@ -35,3 +35,5 @@ Esse README.md é voltado a expor códigos que possam me ajudar a ajudar outras 
  > `—hard` - Remove todas as alterações e commits feitos após o commit especificado <br>
  
 `git merge <nome_branch>` - Pega o conteúdo da branch especificada e coloca junto ao conteúdo da branch atual <br>
+`git push origin <branch>` - Pega as alterações commitadas em ambiente local e coloca no GitHub, na branch especificada <br>
+`git pull origin <branch>` - Pega as alterações commitadas do repositório do GitHub da branch especificada, e puxa para o repositório local <br>
