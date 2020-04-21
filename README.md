@@ -30,6 +30,8 @@ Esse README.md é voltado a expor códigos que possam me ajudar a ajudar outras 
  > `-b <nome_branch>` - Cria uma nova branch e já muda para ela <br>
  
 `git checkout <nome_branch>` - Muda de uma branch para a outra <br>
+> `-a` - Mostra também os branchs remotos <br>
+
 `git reset HEAD~<numero_commis>` - Volta a quantidades de commits especificadas <br>
  > `—soft` - Volta os commits e mantém as alterações feitas nele, já preparadas para serem comutadas <br>
  > `—hard` - Remove todas as alterações e commits feitos após o commit especificado <br>
@@ -37,3 +39,5 @@ Esse README.md é voltado a expor códigos que possam me ajudar a ajudar outras 
 `git merge <nome_branch>` - Pega o conteúdo da branch especificada e coloca junto ao conteúdo da branch atual <br>
 `git push origin <branch>` - Pega as alterações commitadas em ambiente local e coloca no GitHub, na branch especificada <br>
 `git pull origin <branch>` - Pega as alterações commitadas do repositório do GitHub da branch especificada, e puxa para o repositório local <br>
+`git clone <url_repositorio>` - Clona um repositório e cria o diretório no seu computador <br>
+`git checkout -b <nome_branch> origin/<nome_branch>` - Cria uma branch local e se baseia na branch que existe remotamente, e muda para essa branch após criada <br>
